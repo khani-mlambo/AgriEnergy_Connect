@@ -1,0 +1,63 @@
+﻿@model PROG7311_ST10349038_POE.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<h1>Add A Product</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label">Name</label>
+                <input asp-for="ProductName" class="form-control" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <label asp-for="ProductType" class="control-label">Type of Product</label>
+                <select asp-for="ProductType" class="form-control">
+                    <option value="">Select Product Type</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Grains">Grains</option>
+                    <option value="Livestock">Livestock</option>
+                </select>
+                <span asp-validation-for="ProductType" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <label asp-for="ProductDescription" class="control-label">Product Description</label>
+                <input asp-for="ProductDescription" class="form-control" />
+                <span asp-validation-for="ProductDescription" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <label asp-for="ProductPrice" class="control-label">Price</label>
+                <input asp-for="ProductPrice" class="form-control" />
+                <span asp-validation-for="ProductPrice" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <label asp-for="ProfileType" class="control-label">Date</label>
+                <input asp-for="ProfileType" class="form-control" />
+                <span asp-validation-for="ProfileType" class="text-danger"></span>
+            </div>
+
+            <hr />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

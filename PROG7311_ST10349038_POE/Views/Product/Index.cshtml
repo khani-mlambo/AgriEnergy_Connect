@@ -1,0 +1,81 @@
+﻿@using Azure.Core
+@model IEnumerable<PROG7311_ST10349038_POE.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Product Index</h1>
+
+@if (User.IsInRole("Farmer"))
+{
+    <p>
+        <a asp-action="Create">Create New Product</a>
+    </p>
+}
+else
+{
+    <p> </p>
+}
+@if (User.IsInRole("Admin"))
+{
+    <form asp-action="Index" method="get" class="mb-3">
+        <label for="productType">Filter by Product Type:</label>
+        <select id="productType" name="productType" class="form-control" onchange="this.form.submit()">
+            <option value="">-- All Types --</option>
+            @foreach (var type in (SelectList)ViewData["ProductTypes"])
+            {
+                <option value="@type.Text" selected="@(Context.Request.Query["productType"] == type.Text ? "selected" : null)">
+                    @type.Text
+                </option>
+            }
+        </select>
+    </form>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <p> Name</p>
+            </th>
+            <th>
+                <p> Product Type</p>
+            </th>
+            <th>
+                <p>Description</p>
+            </th>
+            <th>
+                <p>Price</p>
+                </th>
+            <th>
+                <p>Product Type</p>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfileType)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

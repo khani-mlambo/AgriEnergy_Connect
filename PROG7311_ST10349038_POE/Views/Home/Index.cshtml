@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if(User.IsInRole("Admin"))
+{
+        <h1 class="display-4">Admin🌿</h1>
+}
+    @if (User.IsInRole("Farmer"))
+    {
+        <h1 class="display-4">Farmer🌿</h1>
+    }
+ </div>
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Welcome to AgriEnergy Connect</h1>
+        <p class="lead text-muted">
+            Creating a digital ecosystem where farmers, green energy experts, and enthusiasts collaborate, share resources,
+            and innovate in sustainable agriculture and renewable energy.
+        </p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="mb-3">Objective:</h2>
+            <p>
+                The primary goal of this POE is to create a digital ecosystem where farmers, green energy experts, and
+                enthusiasts can collaborate, share resources, and innovate in the realms of sustainable agriculture and
+                renewable energy.
+            </p>
+
+            <h2 class="mt-5 mb-3">Key Features of the Platform:</h2>
+
+            <h4>1. Sustainable Farming Hub:</h4>
+            <ul>
+                <li>A resource centre for sharing best practices in sustainable farming, including organic farming techniques, water conservation methods, and soil health maintenance.</li>
+                <li>Interactive forums and discussion boards for farmers to seek advice, share experiences, and collaborate on sustainable farming initiatives.</li>
+            </ul>
+
+            <h4 class="mt-4">2. Green Energy Marketplace:</h4>
+            <ul>
+                <li>A marketplace for green energy solutions tailored to agricultural needs, such as solar-powered irrigation systems, wind turbines for farms, and biogas energy solutions.</li>
+                <li>Features for comparing products, reviewing technologies, and connecting with green tech providers.</li>
+            </ul>
+
+            <h4 class="mt-4">3. Educational and Training Resources:</h4>
+            <ul>
+                <li>Online courses, webinars, and workshops on integrating green energy technologies in agriculture.</li>
+                <li>Material focusing on the benefits and practicalities of adopting renewable energy sources on farms.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
