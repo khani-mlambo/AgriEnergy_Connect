@@ -436,3 +436,4 @@ C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\ref\PROG7311_ST10349038_POE.dll
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\compressed\0eo6mbjo90-at9fsyf7wo.gz
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\compressed\1ujj790333-wj0xf2bef7.gz
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\PROG7311_ST10349038_POE.sourcelink.json
