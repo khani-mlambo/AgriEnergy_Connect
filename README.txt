@@ -54,14 +54,19 @@ AgriEnergy Connect is a role-based web application designed to support sustainab
 
 ## Role Permissions
 
-| Action                  | Admin | Farmer |
-|-------------------------|:-----:|:------:|
-| Register & Login        | Yes   | Yes    |
-| View Products           | Yes   | Yes    |
-| Filter Products         | Yes   | No     |
-| Create Products         | No    | Yes    |
-| Delete Products         | Yes   | No     |
-| View Farmer Profiles    | Yes   | No     |
+Farmer Role:
+Farmers can create and manage products, including:
+Product Name
+Type (Vegetables, Grains, Livestock)
+Description
+Price
+Date
+
+Admin Role:
+View all products
+Filter products by type
+Delete products
+View farmer profiles
 
 ## Setup Instructions
 
