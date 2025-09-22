@@ -75,7 +75,7 @@ AgriEnergy Connect is a role-based web application designed to support sustainab
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/AgriEnergyConnect.git
+git clone https://github.com/khani-mlambo/AgriEnergy_Connect.git
 cd AgriEnergyConnect
 ```
 
