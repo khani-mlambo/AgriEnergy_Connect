@@ -107,35 +107,6 @@ To test the Admin experience, make sure to select the admin role when registerin
   - Delete any product
   - View farmer profiles
 
-## Project Structure
-
-```
-AgriEnergyConnect/
-├── Controllers/
-│   ├── HomeController.cs
-│   ├── ProductController.cs
-├── Models/
-│   ├── ProductModel.cs
-│   ├── ProfileModel.cs
-├── Views/
-│   ├── Product/
-│   ├── Shared/
-│   ├── Home/
-├── Data/
-│   └── ApplicationDbContext.cs
-├── Areas/Identity/
-│   └── Pages/Account/
-├── wwwroot/
-│   └── css/bootstrap.css
-├── Program.cs
-├── appsettings.json
-```
-
-## Notes
-
-- ProfileType is used as a date field but may be renamed for clarity
-- Passwords should ideally not be stored in ProfileModel as plaintext
-- Identity is used for core user management, while ProfileModel stores extended user data
 
 ## License
 

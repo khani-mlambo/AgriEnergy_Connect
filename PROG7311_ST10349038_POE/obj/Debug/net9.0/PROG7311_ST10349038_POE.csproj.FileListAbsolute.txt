@@ -421,12 +421,6 @@ C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets\msbuild.PROG7311_ST10349038_POE.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets\msbuild.PROG7311_ST10349038_POE.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets\msbuild.build.PROG7311_ST10349038_POE.props
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.PROG7311_ST10349038_POE.props
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.PROG7311_ST10349038_POE.props
-C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\PROG7311.C5BEB7B0.Up2Date
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\PROG7311_ST10349038_POE.dll
@@ -437,3 +431,8 @@ C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\compressed\0eo6mbjo90-at9fsyf7wo.gz
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\compressed\1ujj790333-wj0xf2bef7.gz
 C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\PROG7311_ST10349038_POE.sourcelink.json
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\bonol\source\repos\PROG7311_ST10349038_POE\PROG7311_ST10349038_POE\obj\Debug\net9.0\staticwebassets.build.json.cache
